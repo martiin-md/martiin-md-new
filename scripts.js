@@ -44,8 +44,8 @@ const translations = {
     "project5-description":
       "Una Aplicación donde te permite basarte en el control de la música (Te sirve de ayuda para futuros proyectos del mundo de la música)",
 
-      "project5-title": "Gestión Concesionario",
-      "project5-description":
+      "project6-title": "Gestión Concesionario",
+      "project6-description":
         "Gestión de concesionario con Java y Maven. Te permite gestionar el listado de coches de vendidos con los clientespo haciendo uso de una base de datos SQL donde puedes añadir personas, unificar coches con personas y ademas observar los propietarios que ha tenido... dicho vehiculo",
 
     // Sección Lenguajes de Programación
