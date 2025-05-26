@@ -48,9 +48,16 @@ const translations = {
     "project5-description":
       "Una Aplicación donde te permite basarte en el control de la música (Te sirve de ayuda para futuros proyectos del mundo de la música)",
 
-    "project5-title": "Gestión Concesionario",
-    "project5-description":
+    "project6-title": "Gestión Concesionario",
+    "project6-description":
       "Gestión de concesionario con Java y Maven. Te permite gestionar el listado de coches de vendidos con los clientespo haciendo uso de una base de datos SQL donde puedes añadir personas, unificar coches con personas y ademas observar los propietarios que ha tenido... dicho vehiculo",
+
+    "project7-title": "View-Veppora",
+    "project7-description": "Aplicación de Inversiones Financieras.\n\n- Educación: Cursos y guías para todos los niveles evaluables.\n- Simuladores: Prueba estrategias sin riesgo.\n- Análisis de Mercado en Tiempo Real: Datos actualizados para decisiones informadas.",
+
+
+
+
 
     // Sección Lenguajes de Programación
     "languages-title": "Lenguajes de Programación",
@@ -109,21 +116,33 @@ const translations = {
     "project1-title": "Ibiza Events Management",
     "project1-description":
       "An app to manage events, artists, and event reservations in Ibiza. Built with Java and SQLite.",
+
     "project2-title": "Breakout Mobile Game",
     "project2-description":
       "Created for Android with Godot 4.3. Classic arcade 'Breakout' style. Control a paddle and break blocks.",
+
     "project3-title": "Music Management App",
     "project3-description":
       "Developed with Kotlin and Java. This app allows you to create playlists and songs. It uses Firebase as the database.",
+
     "project4-title": "IAchatBotApp",
     "project4-description":
       "An app where you can chat with Artificial Intelligence and get personalized responses. Developed at AppInventor.mit.edu.",
+
     "project5-title": "Music Controller",
     "project5-description":
       "An application that helps you manage music controls (Useful for future music-related projects).",
+
     "project6-title": "Concessionaire Management",
     "project6-description":
       "Concessionaire management system built with Java and Maven. Allows managing sold cars and customers using an SQL database where you can add people, link cars with people, and track vehicle ownership history.",
+
+    "project7-title": "View Veppora",
+    "project7-description":
+      "Financial Investment App.\n\n- Education: Courses and guides for all levels.\n- Simulators: Test strategies risk-free.\n- Real-Time Market Analysis: Updated data for informed decisions.",
+
+
+
 
     // Sección Lenguajes de Programación
     "languages-title": "Programming Languages",
