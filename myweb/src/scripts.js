@@ -31,22 +31,26 @@ const translations = {
     "project1-title": "Gestión de Eventos Ibiza",
     "project1-description":
       "App para poder Gestionar Eventos, Artistas y Reservas de los Eventos de Ibiza. Hecho con Java y SQLite",
+
     "project2-title": "Juego Móvil Romper Ladrillos",
     "project2-description":
       "Creado para Android con Godot 4.3. Versión clásica del arcade 'Breakout'. Controla una paleta y destruye bloques.",
+
     "project3-title": "Aplicación de Gestión de Música",
     "project3-description":
       "Desarrollada con Kotlin y Java. Esta App te permite el manejo de creación listas y canciones. Su uso de base de datos es de Firebase",
+
     "project4-title": "IAchatBotApp",
     "project4-description":
       "Es una Aplicación donde hablas con la Inteligencia Artificial y te responde a tus necesidades. Desarrollada en AppInventor.mit.edu.",
+
     "project5-title": "Controlador de Música",
     "project5-description":
       "Una Aplicación donde te permite basarte en el control de la música (Te sirve de ayuda para futuros proyectos del mundo de la música)",
 
-      "project5-title": "Gestión Concesionario",
-      "project5-description":
-        "Gestión de concesionario con Java y Maven. Te permite gestionar el listado de coches de vendidos con los clientespo haciendo uso de una base de datos SQL donde puedes añadir personas, unificar coches con personas y ademas observar los propietarios que ha tenido... dicho vehiculo",
+    "project5-title": "Gestión Concesionario",
+    "project5-description":
+      "Gestión de concesionario con Java y Maven. Te permite gestionar el listado de coches de vendidos con los clientespo haciendo uso de una base de datos SQL donde puedes añadir personas, unificar coches con personas y ademas observar los propietarios que ha tenido... dicho vehiculo",
 
     // Sección Lenguajes de Programación
     "languages-title": "Lenguajes de Programación",
@@ -261,9 +265,9 @@ function scrollProjects(direction) {
   const scrollAmount = 300; // Cantidad de desplazamiento
 
   if (direction === 1) {
-      carousel.scrollLeft += scrollAmount;
+    carousel.scrollLeft += scrollAmount;
   } else {
-      carousel.scrollLeft -= scrollAmount;
+    carousel.scrollLeft -= scrollAmount;
   }
 }
 
@@ -274,25 +278,25 @@ const projectWidth = 300; // Ancho de cada proyecto (ajusta según tu diseño)
 
 // Función para desplazarse a un proyecto específico
 function goToProject(index) {
-    const offset = index * projectWidth; // Calcula la posición horizontal
-    carousel.scrollTo({
-        left: offset,
-        behavior: 'smooth'
-    });
+  const offset = index * projectWidth; // Calcula la posición horizontal
+  carousel.scrollTo({
+    left: offset,
+    behavior: 'smooth'
+  });
 
-    // Actualiza el estado de los puntos
-    updateDots(index);
+  // Actualiza el estado de los puntos
+  updateDots(index);
 }
 
 // Función para actualizar los puntos
 function updateDots(activeIndex) {
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === activeIndex);
-    });
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active', index === activeIndex);
+  });
 }
 
 // Opcional: Actualizar los puntos automáticamente mientras se desplaza
 carousel.addEventListener('scroll', () => {
-    const index = Math.round(carousel.scrollLeft / projectWidth);
-    updateDots(index);
+  const index = Math.round(carousel.scrollLeft / projectWidth);
+  updateDots(index);
 });
